@@ -2,14 +2,14 @@
 
 ## Overview
 
-This repository is a collection of **4 React tasks** designed to help you gain **hands-on experience** with:
+This repository is a collection of **4 React tasks** designed to gain **hands-on experience** with:
 
 - API data fetching  
 - Caching strategies  
-- Searching & filtering cached data  
+- Searching and filtering cached data  
 - Creating dynamic flow diagrams with **React Flow**
 
-Each task is implemented in its own folder, so you can run and test them independently.
+Each task is implemented in its own folder, so we can run and test them independently.
 
 ---
 
@@ -19,7 +19,7 @@ Data Fetching, Caching, and Dynamic React Flows/
 │
 ├── Task 1 - API Data Fetching and Display
 ├── Task 2 - Implement Caching for API Requests
-├── Task 3 - Search & Filter with Cached Data
+├── Task 3 - Search and Filter with Cached Data
 └── Task 4 - Dynamic React Flow Node Creation
 ```
 
@@ -67,7 +67,7 @@ Libraries Used
 React
 @tanstack/react-query
 
-### Task 3 - Search & Filter with Cached Data
+### Task 3 - Search and Filter with Cached Data
 
 - Extends Task 2 by adding a search bar
 - Filters cached API data instantly without refetching
@@ -113,7 +113,7 @@ reactflow
 
 ## Learning Outcomes
 
-By completing this project, you will learn:
+By completing this project, learnings:
 
 - Fetching and caching API data in React  
 - Debouncing and filtering data efficiently  
