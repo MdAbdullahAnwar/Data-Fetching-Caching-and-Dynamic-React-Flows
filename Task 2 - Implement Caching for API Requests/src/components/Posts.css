@@ -1,0 +1,50 @@
+.refresh-btn {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.refresh-btn:hover {
+  background: darkblue;
+}
+
+.last-updated {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.posts-table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 80%;
+  border: 1px solid #ddd;
+}
+
+.posts-table th,
+.posts-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.posts-table thead tr {
+  background: #007bff;
+  color: white;
+}
+
+.posts-table tbody tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.posts-table tbody tr:hover {
+  background: #f1f1f1;
+}
