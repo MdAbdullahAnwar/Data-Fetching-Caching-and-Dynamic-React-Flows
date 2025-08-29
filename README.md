@@ -14,7 +14,6 @@ Each task is implemented in its own folder, so you can run and test them indepen
 ---
 
 ## Repository Structure
-
 ```
 Data Fetching, Caching, and Dynamic React Flows/
 │
@@ -34,70 +33,78 @@ Data Fetching, Caching, and Dynamic React Flows/
 - Displays results in a list/table  
 - Shows **loading spinner** while fetching  
 - Handles and displays **error messages** on failure  
-- *Bonus:* Added pagination support  
+- Bonus: Added pagination support  
 
 **Run Commands**
 ```bash
 cd "Task 1 - API Data Fetching and Display"
 npm install
 npm start
+```
 
-**Libraries Used**
+Libraries Used
 
 React (Hooks: useEffect, useState)
 
-### **Task 2 - Implement Caching for API Requests**
-- Implements caching using @tanstack/react-query
-- Uses cache to prevent unnecessary network requests.
-- Includes a "Refresh Data" button to invalidate cache & refetch.
-*Bonus:* Stores data in localStorage for persistence.
+### Task 2 - Implement Caching for API Requests
 
-**Run Commands**
+- Implements caching using @tanstack/react-query
+- Uses cache to prevent unnecessary network requests
+- Includes a "Refresh Data" button to invalidate cache & refetch
+- Bonus: Stores data in localStorage for persistence
+
+Run Commands
+
 ```bash
 cd "Task 2 - Implement Caching for API Requests"
 npm install
 npm install @tanstack/react-query
 npm start
+```
 
-
-**Libraries Used**
+Libraries Used
 
 React
 @tanstack/react-query
 
-### **Task 3 - Search & Filter with Cached Data**
-- Extends Task 2 by adding a search bar.
-- Filters cached API data instantly without refetching.
-- Uses debouncing to optimize search performance.
+### Task 3 - Search & Filter with Cached Data
 
-**Run Commands**
+- Extends Task 2 by adding a search bar
+- Filters cached API data instantly without refetching
+- Uses debouncing to optimize search performance
+
+Run Commands
+
 ```bash
 cd "Task 3 - Search & Filter with Cached Data"
 npm install
 npm start
+```
 
-
-**Libraries Used**
+Libraries Used
 
 React
 @tanstack/react-query (inherited caching from Task 2)
 
-### **Task 4 - Dynamic React Flow Node Creation**
-- Uses React Flow to create an interactive flow diagram.
-- Starts with an empty canvas.
-- Allows adding nodes dynamically with unique IDs.
-- Nodes are draggable and connectable via edges.
-*Bonus:* Node labels populated using API data from Task 1.
+### Task 4 - Dynamic React Flow Node Creation
 
-**Run Commands**
+- Uses React Flow to create an interactive flow diagram
+- Starts with an empty canvas
+- Allows adding nodes dynamically with unique IDs
+- Nodes are draggable and connectable via edges
+- Bonus: Node labels populated using API data from Task 1
+
+Run Commands
+
 ```bash
+Copy code
 cd "Task 4 - Dynamic React Flow Node Creation"
 npm install
 npm install reactflow
 npm start
+```
 
-
-**Libraries Used**
+Libraries Used
 
 React
 reactflow
@@ -118,10 +125,11 @@ By completing this project, you will learn:
 
 ## Running Any Task
 
-### 1. Navigate to the task folder
+### Navigate to the task folder
 
 ```bash
 cd "Task X - Folder Name"
+
 npm install
 npm install @tanstack/react-query
 npm install reactflow
